@@ -1,0 +1,45 @@
+.expense-tabs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #fff;
+    gap: 20px;
+    font-weight: bold;
+    background-color: rgb(88, 88, 88);
+    height: 110px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px 0px #333;
+}
+
+.expense-date--style {
+    width: 100px;
+    background-color: #333;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.year {
+    font-size: 12px;
+}
+
+.date {
+    font-size: 28px;
+}
+
+.expense-title {
+    font-size: 28px;
+}
+
+.expense-price {
+    background-color: rgb(105, 2, 105);
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-left: auto;
+}
